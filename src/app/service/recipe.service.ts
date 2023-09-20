@@ -9,7 +9,7 @@ import { DataResponse } from '../interface/data-response';
 })
 export class RecipeService {
 
-  private baseUrl = "/assets/db.json"
+  private baseUrl = "assets/db.json"
 
   constructor(
     private http: HttpClient

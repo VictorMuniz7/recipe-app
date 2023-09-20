@@ -1,0 +1,149 @@
+<div class="back">
+  <div class="header">
+      <div>
+        <a href="https://github.com/VictorMuniz7" target="_blank" ><i class="fa-brands fa-github"></i></a>
+      </div>
+      <div id="title-div">
+        <h1>Recipe App</h1>
+      </div>
+      <div>
+        <a href="https://www.linkedin.com/in/victor-muniz-236842267/" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+      </div>
+  </div>
+
+  <div class="cards-div">
+    <div *ngFor="let meal of meals, index as i" class="card-title" (click)="showCard(i)" [style.pointerEvents]="clicked ? 'none' : 'all' " #mealItem>
+      <p>{{ meal.title }}</p>
+      <p><i class="fa-solid fa-{{ meal.type | mealType}}"></i></p>
+    </div>
+  </div>
+
+  <div class="card-title post" (click)="postClicked = true">
+    <p>Add a recipe</p> <i class="fa-solid fa-plus"></i>
+  </div>
+
+  <div class="card" *ngIf="clicked">
+    <i class="fa-solid fa-xmark close" (click)="closeCard()"></i>
+    <h1>{{ currentMeal.title }}</h1>
+    <div class="img-div">
+      <img src="{{currentMeal.image}}" alt="Meal image">
+    </div>
+    <div class="details">
+      <div class="details-div">
+        <div>
+          <p>Meal Type</p>
+          <hr>
+          <p style="color: white">{{currentMeal.type}}</p>
+        </div>
+      </div>
+      <div class="details-div">
+        <div>
+          <p>Difficulty</p>
+          <hr>
+          <p style="color: white">{{currentMeal.difficulty}}</p>
+        </div>
+      </div>
+      <div class="details-div">
+        <div>
+          <p>Servings</p>
+          <hr>
+          <p style="color: white">{{currentMeal.serving}}</p>
+        </div>
+      </div>
+    </div>
+    <div class="prepare">
+      <h3>Ingredients</h3>
+      <ul>
+        <li *ngFor="let ingredient of currentMeal.ingredients">
+          {{ ingredient }}
+        </li>
+      </ul>
+    </div>
+    <div class="prepare">
+      <h3>Steps</h3>
+      <ul>
+        <li *ngFor="let step of currentMeal.steps">
+          {{ step }}
+        </li>
+      </ul>
+    </div>
+  </div>
+
+  <div class="card post-card-div" *ngIf="postClicked">
+    <div class="close">
+      <i class="fa-solid fa-xmark" (click)="closePostCard()"></i>
+    </div>
+    <form [formGroup]="form" class="postCard" (keydown.enter)="$event.preventDefault()">
+      <h2>Add a recipe</h2>
+      <label for="title">Meal Title</label>
+      <input type="text" formControlName="title">
+      <div *ngIf="form.get('title')?.invalid && form.get('title')?.touched" class="error-div">
+        <p>Recipe title required</p>
+      </div>
+
+      <label for="type">Meal Type</label>
+      <select formControlName="type">
+        <option value="Breakfast">Breakfast</option>
+        <option value="Lunch">Lunch</option>
+        <option value="Supper">Supper</option>
+        <option value="Snack">Snack</option>
+      </select>
+      <div *ngIf="form.get('type')?.invalid && form.get('type')?.touched" class="error-div">
+        <p>Recipe type required</p>
+      </div>
+
+      <label for="serving">Servings</label>
+      <input type="number" formControlName="serving">
+      <div *ngIf="form.get('serving')?.invalid && form.get('serving')?.touched" class="error-div">
+        <p>Recipe servings required</p>
+      </div>
+
+      <label for="difficulty">Difficulty</label>
+      <select formControlName="difficulty">
+        <option value="Beginner">Beginner</option>
+        <option value="Intermediate">Intermediate</option>
+        <option value="Advanced">Advanced</option>
+      </select>
+      <div *ngIf="form.get('difficulty')?.invalid && form.get('difficulty')?.touched" class="error-div">
+        <p>Recipe difficulty required</p>
+      </div>
+
+      <label for="title">Meal Image Link</label>
+      <input type="text" formControlName="image">
+      <div *ngIf="form.get('image')?.invalid && form.get('image')?.touched" class="error-div">
+        <p>Recipe image required</p>
+      </div>
+
+      <ul>
+        <p>Ingredients:</p>
+        <li *ngFor="let ingredient of form.value.ingredients">
+          {{ ingredient }}
+        </li>
+      </ul>
+      <div *ngIf="form.get('ingredients')?.value?.length === 0" class="error-div">
+        <p>Recipe ingredients required</p>
+      </div>
+
+      <label for="ingredients">Add a ingredient</label>
+      <input type="text" (keyup.enter)="addIngredient(newIngredient.value)" (keyup.enter)="newIngredient.value = ''" #newIngredient>
+
+
+      <ul>
+        <p>Steps:</p>
+        <li *ngFor="let step of form.value.steps">
+          {{ step }}
+        </li>
+      </ul>
+      <div *ngIf="form.get('steps')?.value?.length === 0" class="error-div">
+        <p>Recipe steps required</p>
+      </div>
+
+      <label for="steps">Add a Step</label>
+      <input type="text" (keyup.enter)="addStep(newStep.value)" (keyup.enter)="newStep.value = ''" #newStep>
+
+      <button (click)="submit()" type="button">Save Recipe</button>
+
+    </form>
+
+  </div>
+</div>

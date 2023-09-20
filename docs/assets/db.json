@@ -1,0 +1,153 @@
+{
+  "meals": [
+    {
+      "title": "Lasagna",
+      "type": "Lunch",
+      "serving": 12,
+      "difficulty": "Advanced",
+      "image": "https://www.allrecipes.com/thmb/MkKfYU4oim55CLp39DDuNMuyThA=/750x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/23600-worlds-best-lasagna-armag-4x3-1-b24f9ad518d74090bf197828492c64a6.jpg",
+      "ingredients": [
+        "1 pound sweet Italian sausage",
+        "¾ pound lean ground beef",
+        "½ cup minced onion",
+        "2 cloves garlic, crushed",
+        "1 (28 ounce) can crushed tomatoes",
+        "2 (6.5 ounce) cans canned tomato sauce",
+        "2 (6 ounce) cans tomato paste",
+        "½ cup water",
+        "2 tablespoons white sugar",
+        "4 tablespoons chopped fresh parsley, divided",
+        "1 ½ teaspoons dried basil leaves",
+        "1 ½ teaspoons salt, divided, or to taste",
+        "1 teaspoon Italian seasoning",
+        "½ teaspoon fennel seeds",
+        "¼ teaspoon ground black pepper",
+        "12 lasagna noodles",
+        "16 ounces ricotta cheese",
+        "1 egg",
+        "¾ pound mozzarella cheese, sliced",
+        "¾ cup grated Parmesan cheese"
+      ],
+      "steps": [
+        "Gather all your ingredients.",
+        "Cook sausage, ground beef, onion, and garlic in a Dutch oven over medium heat until well browned",
+        "Stir in crushed tomatoes, tomato sauce, tomato paste, and water. Season with sugar, 2 tablespoons parsley, basil, 1 teaspoon salt, Italian seasoning, fennel seeds, and pepper. Simmer, covered, for about 1 1/2 hours, stirring occasionally.",
+        "Bring a large pot of lightly salted water to a boil. Cook lasagna noodles in boiling water for 8 to 10 minutes. Drain noodles, and rinse with cold water.",
+        "In a mixing bowl, combine ricotta cheese with egg, remaining 2 tablespoons parsley, and 1/2 teaspoon salt.",
+        "Preheat the oven to 375 degrees F (190 degrees C).",
+        "To assemble, spread 1 1/2 cups of meat sauce in the bottom of a 9x13-inch baking dish. Arrange 6 noodles lengthwise over meat sauce. Spread with 1/2 of the ricotta cheese mixture. Top with 1/3 of the mozzarella cheese slices. Spoon 1 1/2 cups meat sauce over mozzarella, and sprinkle with 1/4 cup Parmesan cheese.",
+        "Repeat layers, and top with remaining mozzarella and Parmesan cheese. Cover with foil: to prevent sticking, either spray foil with cooking spray or make sure the foil does not touch the cheese.",
+        "Bake in the preheated oven for 25 minutes. Remove the foil and bake for an additional 25 minutes.",
+        "Rest lasagna for 15 minutes before serving."
+      ]
+    },
+    {
+      "title": "Fried Egg Tortilla",
+      "type": "Breakfast",
+      "serving": 1,
+      "difficulty": "Beginner",
+      "image": "https://www.allrecipes.com/thmb/3KWh4jk7D6-nxGLj_IdHLo6ToWA=/750x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/7561904_Tortilla-Fried-Eggs_Bibi_4x3-dedfb767987f4830bdaaf49967753d70.jpg",
+      "ingredients": [
+        "2 teaspoons butter",
+        "1 large egg",
+        "1/4 teaspoon taco seasoning, or to taste",
+        "1 1/2 ounces shredded Cheddar cheese, divided",
+        "1 (6 to 7-inch) flour tortilla"
+      ],
+      "steps": [
+        "In a 10-inch nonstick skillet, melt butter over medium heat, and swirl the pan to coat the bottom evenly.",
+        "Carefully break egg into buttered skillet and cook until egg white is opaque and egg is firm enough to turn, about 1 minute.",
+        "Turn egg over, being careful not to break yolk; sprinkle with taco seasoning and about half of cheese.",
+        "Gently place tortilla over egg and cheese, and cook about 1 minute. Using a silicone egg turner, flip the egg and tortilla, as one.",
+        "Sprinkle remaining cheese on top of the egg, and continue cooking until the egg is done to your liking and the tortilla is warm and toasty, about 2 minutes.",
+        "Slide tortilla and egg to a serving plate and serve warm."
+      ]
+    },
+    {
+      "title": "Arugula Salad with Stone Fruit",
+      "type": "Lunch",
+      "serving": 4,
+      "difficulty": "Beginner",
+      "image": "https://www.allrecipes.com/thmb/EC7FTg4V4z3ijZyHMVmdXTlkFaQ=/750x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/7506181-arugula-salad-with-stone-fruit-GOLDMAN-4x3-5066-df2290fa4eaf49689258d9100e1170f4.jpg",
+      "ingredients": [
+        "2 tablespoons extra-virgin olive oil",
+        "2 tablespoons red wine vinegar or rosé vinegar",
+        "3/4 teaspoon salt",
+        "1/2 teaspoon black pepper",
+        "1 1/2 cups red cherry tomatoes, halved",
+        "1 1/2 cups yellow cherry tomatoes, halved",
+        "1 (5-ounce package) arugula",
+        "3/4 cup fresh basil leaves",
+        "2 nectarines, sliced",
+        "1 large white peach, sliced",
+        "1 cup Rainier or other yellow-flesh cherries, pitted and halved",
+        "1/2 teaspoon flaky sea salt"
+      ],
+      "steps": [
+        "Whisk together olive oil, vinegar, salt, and pepper in a small bowl for the dressing.",
+        "Arrange tomatoes, arugula, basil, nectarines, and peach slices on a large platter. Drizzle with half the dressing. Top with cherries, sea salt, and remaining dressing. Serve immediately."
+      ]
+    },
+    {
+      "title": "Slow Cooker Taco Soup",
+      "type": "Supper",
+      "serving": 8,
+      "difficulty": "Intermediate",
+      "image": "https://www.allrecipes.com/thmb/P_fjZwSFd-pxkryWphdMVLqwIDs=/750x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/16678-slow-cooker-taco-soup-ddmfs-beauty-3x4-4b64d4cf431c448bb86d440086e42e5a.jpg",
+      "ingredients": [
+        "1 pound ground beef",
+        "1 onion, chopped",
+        "1 (16 ounce) can chili beans, with liquid",
+        "1 (15 ounce) can kidney beans with liquid",
+        "1 (15 ounce) can whole kernel corn, with liquid",
+        "1 (8 ounce) can tomato sauce",
+        "2 cups water",
+        "2 (14.5 ounce) cans peeled and diced tomatoes",
+        "1 (4 ounce) can diced green chile peppers",
+        "1 (1.25 ounce) package taco seasoning mix"
+      ],
+      "steps": [
+        "Gather all ingredients.",
+        "In a medium skillet, cook the ground beef until browned over medium heat. Drain, and set aside.",
+        "Place the ground beef, onion, chili beans, kidney beans, corn, tomato sauce, water, diced tomatoes, green chile peppers and taco seasoning mix in a slow cooker.",
+        "Mix to blend, and cook on Low setting for 8 hours."
+      ]
+    },
+    {
+      "title": "Fried Boursin Balls",
+      "type": "Lunch",
+      "serving": 14,
+      "difficulty": "Beginner",
+      "image": "https://www.allrecipes.com/thmb/aoiZGD06jEoNOoTz6zG7qwdFpa4=/750x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/7497920-fried-boursin-bites-DDMFS-4x3-054-0b474f25486d43128de874ae60c2e1db.jpg",
+      "ingredients": [
+        "1 quart canola oil for frying, or as needed",
+        "1 cup all-purpose flour",
+        "2 large eggs, beaten",
+        "1 cup Italian seasoned breadcrumbs",
+        "2 (4.23-oz) packages Boursin Garlic and Fine Herbs Cheese Bites"
+      ],
+      "steps": [
+        "Pour oil to a depth of 2 inches in a large Dutch oven. Heat oil over medium heat to 350 degrees F (180 degrees C). ",
+        "While oil heats, set out 3 wide shallow bowls. Fill them individually with flour, beaten eggs, and breadcrumbs.",
+        "Working with a handful of bites at a time, gently dredge cheese in flour, and shake off excess. Dip in eggs; let excess drip off. Dredge in breadcrumbs to coat. Place on a small rimmed baking sheet or large plate. Transfer to freezer for 15 minutes. ",
+        "Fry boursin bites in batches, cooking until golden, 30 seconds to 1 minute. Set on paper towel-lined baking sheet. Repeat with remaining bites. Transfer to a platter and serve immediately."
+      ]
+    },
+    {
+      "title": "Basic Air Fryer Hot Dogs",
+      "type": "Snack",
+      "serving": 4,
+      "difficulty": "Beginner",
+      "image": "https://www.allrecipes.com/thmb/GtHfTQ8549b7aYBGh5rL5elHNDM=/750x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/268494-basic-air-fryer-hot-dogs-BuckwheatQueen-4x3-84d84c97b9084e75ad49d8d6154494ca.jpg",
+      "ingredients": [
+        "4 hot dog buns",
+        "4 hot dogs"
+      ],
+      "steps": [
+        "Preheat an air fryer to 400 degrees F (200 degrees C).",
+        "Place buns in a single layer in the air fryer basket; cook in the preheated air fryer until crisp, about 2 minutes. Remove buns to a plate.",
+        "Place hot dogs in a single layer in the air fryer basket; cook for 3 minutes. Serve hot dogs in toasted buns."
+      ]
+    }
+  ]
+}
